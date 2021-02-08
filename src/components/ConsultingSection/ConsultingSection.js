@@ -7,7 +7,7 @@ const ConsultingSection = () => {
         <div className="container">
             <div className='consulting-section'>
                 <div className="section__text">
-                    <p class="font-sans">
+                    <p className="font-sans">
                         Die IT-Struktur sinnvoll und effizient zu konzipieren steht für uns im Vordergrund.. Was Ihr Unternehmen genau braucht, analysieren wir in einer fundierten und kostenfreien Erstberatung. Denn jedes Unternehmen ist anders – durch unsere jahrelange Erfahrung können wir auf spezielle Wünsche und Anforderungen eingehen.
                         <br />
                         <br />

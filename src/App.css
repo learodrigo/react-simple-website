@@ -4,7 +4,16 @@
     margin: 0;
 }
 
+.top-logo {
+    color: #282828;
+    font-size: 28px;
+    left: 40px;
+    position: absolute;
+    top: 34px;
+}
+
 a {
+    cursor: pointer;
     text-decoration: none;
 }
 a:hover {

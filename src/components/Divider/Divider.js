@@ -1,7 +1,5 @@
 import './Divider.css'
 
-// import { Link } from 'react-router-dom'
-
 const Divider = ({ text, id = null }) => {
     return (
         <div className="divider">

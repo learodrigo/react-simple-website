@@ -7,24 +7,23 @@ const ServicesSection = () => {
         <footer className="footer">
             <div className='container font-mono'>
                 <div className='footer__links'>
-                    <Link className="footer__link">
+                    <a href='/#consulting' className="footer__link">
                         IT Consulting
-                    </Link>
-                    <Link className="footer__link">
+                    </a>
+                    <a href='/#leistungen' className="footer__link">
                         Leistungen
-                    </Link>
-                    <Link className="footer__link">
+                    </a>
+                    <a href='/#unsere-partners' className="footer__link">
                         Unsere Partner
-                    </Link>
-                    <Link className="footer__link">
+                    </a>
+                    <Link to='/ueber-uns' className="footer__link">
                         Über Uns
                     </Link>
                     <br />
-                    <br />
-                    <Link className="footer__link">
+                    <Link to='/impressum' className="footer__link">
                         Impressum
                     </Link>
-                    <Link className="footer__link">
+                    <Link to='/datenschutz' className="footer__link">
                         Datenschutz
                     </Link>
                 </div>

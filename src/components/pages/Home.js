@@ -14,7 +14,7 @@ const Home = () => {
                 altImge='Cables animation'
                 extraClass='absolute-pos'
             />
-            <Divider text='Enter ↓' />
+            <Divider text='Enter ↓' id='consulting' />
             <ConsultingSection />
             <ImageDivider
                 srcImage='/images/02_animation_servertower.svg'
@@ -28,7 +28,7 @@ const Home = () => {
                 altImge='Server lights animation'
                 extraClass='red'
             />
-            <Divider text='Unsere Partner' />
+            <Divider text='Unsere Partner' id='unsere-partners' />
             <PartnersSection />
         </>
     )

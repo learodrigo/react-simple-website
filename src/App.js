@@ -5,24 +5,26 @@ import Home from './components/pages/Home'
 import Impressum from './components/pages/Impressum'
 import UeberUns from './components/pages/UeberUns'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-        <h1>IT consultant</h1>
-        <Router>
-            <NavBar />
-            <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/ueber-uns" exact component={UeberUns} />
-                <Route path="/impressum" exact component={Impressum} />
-                <Route path="/datenschutz" exact component={DataPrivacy} />
-            </Switch>
-            <Footer />
-        </Router>
-    </div>
-  )
+const App = () => {
+    return (
+        <div className="App">
+            <Router>
+                <Link to='/'>
+                    <h1 className='top-logo font-sans'>IT consultant</h1>
+                </Link>
+                <NavBar />
+                <Switch>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/ueber-uns" exact component={UeberUns} />
+                    <Route path="/impressum" exact component={Impressum} />
+                    <Route path="/datenschutz" exact component={DataPrivacy} />
+                </Switch>
+                <Footer />
+            </Router>
+        </div>
+    )
 }
 
 export default App

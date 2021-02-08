@@ -34,17 +34,17 @@ const NavBar = () => {
                 <div className={click ? 'navbar-container' : 'hidden'}>
                     <ul className="navbar-inner-links">
                         <li className='navbar-item'>
-                            <a href='#consulting' onClick={closeMobileMenu}>
+                            <a href='/#consulting' onClick={closeMobileMenu}>
                                 Consulting
                             </a>
                         </li>
                         <li className='navbar-item'>
-                            <a href='#leistungen' onClick={closeMobileMenu}>
+                            <a href='/#leistungen' onClick={closeMobileMenu}>
                                 Leistungen
                             </a>
                         </li>
                         <li className='navbar-item'>
-                            <a href='#unsere-partners' onClick={closeMobileMenu}>
+                            <a href='/#unsere-partners' onClick={closeMobileMenu}>
                                 Unsere partners
                             </a>
                         </li>
