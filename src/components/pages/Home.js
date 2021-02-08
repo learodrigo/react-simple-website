@@ -20,12 +20,14 @@ const Home = () => {
             <ImageDivider
                 srcImage='/images/02_animation_servertower.svg'
                 altImge='Server tower animation'
+                extraClass='yellow'
             />
             <Divider text='Leistungen' id='leistungen' />
             <ServicesSection />
             <ImageDivider
                 srcImage='/images/03_animation_serverlights.svg'
                 altImge='Server lights animation'
+                extraClass='red'
             />
             <Divider text='Unsere Partner' />
             <PartnersSection />

@@ -5,6 +5,12 @@
     position: relative;
     width: 100%;
 }
+.image-divider__container.yellow {
+    background-color: #f9f8ea !important;
+}
+.image-divider__container.red {
+    background-color: #ff5000 !important;
+}
 
 .image-divider__image-container {
     display: flex;

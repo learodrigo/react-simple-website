@@ -1,6 +1,5 @@
 .footer {
     background-color: #282828;
-    color: white;
     display: block;
     padding: 50px 0 112px;
 }
@@ -18,6 +17,7 @@
 }
 
 .footer p {
+    color: white;
     display: block;
 }
 

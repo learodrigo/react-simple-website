@@ -27,8 +27,15 @@ a:hover {
     width: 1240px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1239px) {
     .container {
         width: 90%;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
 }

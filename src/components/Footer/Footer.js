@@ -42,15 +42,17 @@ const ServicesSection = () => {
                         T +49 89 5566778-0<br />
                         F +49 89 5566778-29<br />
                         <br />
-                        <a href='mailto:info@it-consulting.de'>info@it-consulting.de</a>
+                        <a className='footer__link' href='mailto:info@it-consulting.de'>info@it-consulting.de</a>
                     </p>
                 </div>
 
                 <div>
                     <p>
-                        Wir sind zertifizierte<br /><br />
-                        EXCELLENCE PARTNER<br /><br />
-                        SILVER PARTNER<br /><br />
+                        Wir sind zertifizierte<br />
+                        <br />
+                        EXCELLENCE PARTNER<br />
+                        SILVER PARTNER<br />
+                        <br />
                         {new Date().getFullYear()} © IT Consulting GmbH
                     </p>
                 </div>
