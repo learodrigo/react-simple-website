@@ -24,7 +24,7 @@ const NavBar = () => {
                         </Button>
                         <Button
                             onClick={handleClick}
-                            buttonStyle={`navbar-icon show-botton ${click ? 'rotated' : ''}`}
+                            buttonStyle={`navbar-icon squre show-botton ${click ? 'rotated' : ''}`}
                         >
                             +
                         </Button>
@@ -34,52 +34,51 @@ const NavBar = () => {
                 <div className={click ? 'navbar-container' : 'hidden'}>
                     <ul className="navbar-inner-links">
                         <li className='navbar-item'>
-                            <a href='/#consulting' onClick={closeMobileMenu}>
+                            <a href='/#consulting' className='font-sans' onClick={closeMobileMenu}>
                                 Consulting
                             </a>
                         </li>
                         <li className='navbar-item'>
-                            <a href='/#leistungen' onClick={closeMobileMenu}>
+                            <a href='/#leistungen' className='font-sans' onClick={closeMobileMenu}>
                                 Leistungen
                             </a>
                         </li>
                         <li className='navbar-item'>
-                            <a href='/#unsere-partners' onClick={closeMobileMenu}>
+                            <a href='/#unsere-partners' className='font-sans' onClick={closeMobileMenu}>
                                 Unsere partners
                             </a>
                         </li>
                         <li className='navbar-item'>
-                            <Link to='/ueber-uns' onClick={closeMobileMenu}>
+                            <Link to='/ueber-uns' className='font-sans' onClick={closeMobileMenu}>
                                 Über uns
                             </Link>
                         </li>
-                    </ul>
-
-                    <ul className='navbar-legal-links'>
+                        <br />
+                        <br />
                         <li className='navbar-item'>
-                            <Link to='/impressum' onClick={closeMobileMenu}>
+                            <Link to='/impressum' className='font-sans' onClick={closeMobileMenu}>
                                 Impressum
                             </Link>
                         </li>
                         <li className='navbar-item'>
-                            <Link to='/datenschutz' onClick={closeMobileMenu}>
+                            <Link to='/datenschutz' className='font-sans' onClick={closeMobileMenu}>
                                 Datenschutz
                             </Link>
                         </li>
                     </ul>
 
-                    <div className='navbar-contact'>
-                        IT Consulting GmbH
-                        Am der Straße 24
-                        10815 Musterhausen
-                        Google Maps
-
-                        Öffnungszeiten
-                        Mo-Fr, 09:00-18:00
-
-                        T +49 89 5566778-0
-                        F +49 89 5566778-29
-
+                    <div className='navbar-contact font-mono'>
+                        IT Consulting GmbH<br />
+                        Am der Straße 24<br />
+                        10815 Musterhausen<br />
+                        Google Maps<br />
+                        <br />
+                        Öffnungszeiten<br />
+                        Mo-Fr, 09:00-18:00<br />
+                        <br />
+                        T +49 89 5566778-0<br />
+                        F +49 89 5566778-29<br />
+                        <br />
                         info@it-consulting.de
                     </div>
                 </div>

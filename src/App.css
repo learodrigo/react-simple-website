@@ -10,6 +10,7 @@
     left: 40px;
     position: absolute;
     top: 34px;
+    z-index: 999;
 }
 
 a {
