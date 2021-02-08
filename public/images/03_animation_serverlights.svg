@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type="text/css">
+
+       /* Animations */
+
+        .fade-in {
+         -webkit-animation: fade-in 1s ease-in 1s both;
+                 animation: fade-in 1s ease-in 1s both;
+        } 
+
+        @-webkit-keyframes fade-in {
+          0% {
+            opacity: 0;
+          }
+          0.1% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+          }
+          0.1% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+
+        .fade-in.licht01 {
+            -webkit-animation-delay: 0.8s;
+             animation-delay: 0.8s;
+             fill: #282828;
+            }
+            
+        .fade-in.licht02 {
+            -webkit-animation-delay: 0.5s;
+             animation-delay: 0.5s;
+             fill: #282828;
+            }
+
+        .fade-in.licht03{
+            -webkit-animation-delay: 0.3s;
+             animation-delay: 0.3s;
+             fill: #282828;
+            }
+
+        .fade-in.licht04 {
+            -webkit-animation-delay: 0.4s;
+             animation-delay: 0.4s;
+             fill: #282828;
+            }
+
+        .fade-in.licht05 {
+            -webkit-animation-delay: 0.9s;
+             animation-delay: 0.9s;
+             fill: #282828;
+            }
+
+        .fade-in.licht06 {
+            -webkit-animation-delay: 0.2s;
+             animation-delay: 0.2s;
+             fill: #282828;
+            }
+
+        .fade-in.licht07 {
+            -webkit-animation-delay: 0.6s;
+             animation-delay: 0.6s;
+             fill: #282828;
+            }
+
+        .fade-in.licht08 {
+            -webkit-animation-delay: 0.2s;
+             animation-delay: 0.2s;
+             fill: #282828;
+            }
+
+        .fade-in.licht09 {
+            -webkit-animation-delay: 1s;
+             animation-delay: 1s;
+             fill: #282828;
+            }
+
+        .fade-in.licht10 {
+            -webkit-animation-delay: 0.1s;
+             animation-delay: 0.1s;
+             fill: #282828;
+            }
+
+        .fade-in.licht11 {
+            -webkit-animation-delay: 0.8s;
+             animation-delay: 0.8s;
+             fill: #282828;
+            }
+
+        .fade-in.licht12 {
+            -webkit-animation-delay: 0.4s;
+             animation-delay: 0.4s;
+             fill: #282828;
+            }
+
+        .fade-in.licht13 {
+            -webkit-animation-delay: 0.9s;
+             animation-delay: 0.9s;
+             fill: #282828;
+            }
+
+        .fade-in.licht14 {
+            -webkit-animation-delay: 0.2s;
+             animation-delay: 0.2s;
+             fill: #282828;
+            }
+
+        .fade-in.licht15 {
+            -webkit-animation-delay: 0.4s;
+             animation-delay: 0.4s;
+             fill: #282828;
+            }
+
+        .fade-in.licht16 {
+            -webkit-animation-delay: 0.2s;
+             animation-delay: 0.2s;
+             fill: #282828;
+            }
+
+        .fade-in.licht17 {
+            -webkit-animation-delay: 1s;
+             animation-delay: 1s;
+             fill: #282828;
+            }
+
+        .fade-in.licht18 {
+            -webkit-animation-delay: 0.2s;
+             animation-delay: 0.2s;
+             fill: #282828;
+            }
+
+        .blinker-1 {    
+
+          -webkit-animation: blinker-1 5s linear 1s infinite both;
+                  animation: blinker-1 5s linear 1s infinite both;      
+        }       
+
+        @-webkit-keyframes blinker-1 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-1 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        .blinker-2 {
+          -webkit-animation: blinker-2 5s linear 1s infinite both;
+                  animation: blinker-2 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-2 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-2 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-3 {
+          -webkit-animation: blinker-3 5s linear 1s infinite both;
+                  animation: blinker-3 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-3 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-3 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-4 {
+          -webkit-animation: blinker-4 5s linear 1s infinite both;
+                  animation: blinker-4 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-4 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-4 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-5 {
+          -webkit-animation: blinker-5 5s linear 1s infinite both;
+                  animation: blinker-5 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-5 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-5 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-6 {
+          -webkit-animation: blinker-6 5s linear 1s infinite both;
+                  animation: blinker-6 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-6 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-6 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        .blinker-7 {
+          -webkit-animation: blinker-7 5s linear 1s infinite both;
+                  animation: blinker-7 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-7 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-7 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        .blinker-8 {
+          -webkit-animation: blinker-8 5s linear 1s infinite both;
+                  animation: blinker-8 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-8 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-8 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }   
+
+        .blinker-9 {
+          -webkit-animation: blinker-9 5s linear 1s infinite both;
+                  animation: blinker-9 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-9 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-9 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }  
+
+        .blinker-10 {
+          -webkit-animation: blinker-10 5s linear 1s infinite both;
+                  animation: blinker-10 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-10 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-10 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }  
+
+        .blinker-11 {
+          -webkit-animation: blinker-11 5s linear 1s infinite both;
+                  animation: blinker-11 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-11 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-11 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        } 
+
+        .blinker-12 {
+          -webkit-animation: blinker-12 5s linear 1s infinite both;
+                  animation: blinker-12 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-12 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-12 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }    
+
+        .blinker-13 {
+          -webkit-animation: blinker-13 5s linear 1s infinite both;
+                  animation: blinker-13 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-13 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-13 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-14 {
+          -webkit-animation: blinker-14 5s linear 1s infinite both;
+                  animation: blinker-14 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-14 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-14 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }   
+
+        .blinker-15 {
+          -webkit-animation: blinker-15 5s linear 1s infinite both;
+                  animation: blinker-15 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-15 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-15 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        } 
+
+        .blinker-16 {
+          -webkit-animation: blinker-16 5s linear 1s infinite both;
+                  animation: blinker-16 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-16 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }
+
+        @keyframes blinker-16 {
+          0.00%   {opacity: 0;}
+          19.99%  {opacity: 0;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 0;}
+          59.99%  {opacity: 0;}
+
+          60.00%  {opacity: 1;}
+          79.99%  {opacity: 1;}
+
+          80.00%  {opacity: 0;}
+          100.00% {opacity: 0;}
+        }  
+
+        .blinker-17 {
+          -webkit-animation: blinker-17 5s linear 1s infinite both;
+                  animation: blinker-17 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-17 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-17 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 0;}
+          39.99%  {opacity: 0;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        .blinker-18 {
+          -webkit-animation: blinker-18 5s linear 1s infinite both;
+                  animation: blinker-18 5s linear 1s infinite both;
+        }    
+
+        @-webkit-keyframes blinker-18 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }
+
+        @keyframes blinker-18 {
+          0.00%   {opacity: 1;}
+          19.99%  {opacity: 1;}
+
+          20.00%  {opacity: 1;}
+          39.99%  {opacity: 1;}
+
+          40.00%  {opacity: 1;}
+          59.99%  {opacity: 1;}
+
+          60.00%  {opacity: 0;}
+          79.99%  {opacity: 0;}
+
+          80.00%  {opacity: 1;}
+          100.00% {opacity: 1;}
+        }             
+
+    </style>
+
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>03_01_animation_serverlights</title>
+    <desc>Created with Sketch.</desc>
+    <g id="03_01_animation_serverlights" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lichter-Gruppe">
+
+            <g class="fade-in licht01">
+                <circle fill="#f9f8ea" cx="325" cy="292" r="52"></circle>
+                <circle class="blinker-1" cx="325" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht02">
+                <circle fill="#f9f8ea" cx="483" cy="292" r="52"></circle>             
+                <circle class="blinker-2" cx="483" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht03">
+                <circle fill="#f9f8ea" cx="641" cy="292" r="52"></circle>                
+                <circle class="blinker-3" cx="641" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht04">
+                <circle fill="#f9f8ea" cx="799" cy="292" r="52"></circle>   
+                <circle class="blinker-4" cx="799" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht05">
+                <circle fill="#f9f8ea" cx="957" cy="292" r="52"></circle>   
+                <circle class="blinker-5" cx="957" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht06">
+                <circle fill="#f9f8ea" cx="1115" cy="292" r="52"></circle>   
+                <circle class="blinker-6" cx="1115" cy="292" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht07">
+                <circle fill="#f9f8ea" cx="325" cy="450" r="52"></circle>   
+                <circle class="blinker-7" cx="325" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht08">
+                <circle fill="#f9f8ea" cx="483" cy="450" r="52"></circle>   
+                <circle class="blinker-8" cx="483" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht09">
+                <circle fill="#f9f8ea" cx="641" cy="450" r="52"></circle>   
+                <circle class="blinker-9" cx="641" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht10">
+                <circle fill="#f9f8ea" cx="799" cy="450" r="52"></circle>   
+                <circle class="blinker-10" cx="799" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht11">
+                <circle fill="#f9f8ea" cx="957" cy="450" r="52"></circle>   
+                <circle class="blinker-11" cx="957" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht12">
+                <circle fill="#f9f8ea" cx="1115" cy="450" r="52"></circle>   
+                <circle class="blinker-12" cx="1115" cy="450" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht13">
+                <circle fill="#f9f8ea" cx="325" cy="608" r="52"></circle>   
+                <circle class="blinker-13" cx="325" cy="608" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht14"> 
+                <circle fill="#f9f8ea" cx="483" cy="608" r="52"></circle>   
+                <circle class="blinker-14" cx="483" cy="608" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht15">
+                <circle fill="#f9f8ea" cx="641" cy="608" r="52"></circle>   
+                <circle class="blinker-15" cx="641" cy="608" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht16">  
+                <circle fill="#f9f8ea" cx="799" cy="608" r="52"></circle>   
+                <circle class="blinker-16" cx="799" cy="608" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht17">
+                <circle fill="#f9f8ea" cx="957" cy="608" r="52"></circle> 
+                <circle class="blinker-17" cx="957" cy="608" r="52"></circle>
+            </g>
+
+            <g class="fade-in licht18">
+                <circle fill="#f9f8ea" cx="1115" cy="608" r="52"></circle>                 
+                <circle class="blinker-18" cx="1115" cy="608" r="52"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
+
+<!-- Animation by Dominik Meixner, Neue Gestaltung GmbH, 2019 -->

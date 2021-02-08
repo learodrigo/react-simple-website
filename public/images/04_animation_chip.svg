@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type="text/css">
+
+    	/* Animations */
+
+	    #inital-hide {
+	        -webkit-animation: inital-hide 0.2s linear 0s both;
+	                animation: inital-hide 0.2s linear 0s both;
+	        -webkit-transform-origin: center;
+	            -ms-transform-origin: center;
+	            	transform-origin: center;
+	    }    
+
+	    @-webkit-keyframes inital-hide {   
+	        0%   {opacity: 0;}
+	        99%  {opacity: 0;}
+	        100% {opacity: 1;}
+	    }
+
+	    @keyframes inital-hide {   
+	        0%   {opacity: 0;}
+	        99%  {opacity: 0;}
+	        100% {opacity: 1;}
+	    }
+
+	    #rotate-group {
+			-webkit-animation: rotate-group 2.8s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.3s infinite both;
+			        animation: rotate-group 2.8s cubic-bezier(0.175, 0.885, 0.320, 1.275) 2.3s infinite both;
+        -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+            	transform-origin: center;
+		}
+
+		@-webkit-keyframes rotate-group {
+		  0% {
+		    -webkit-transform: rotate(0deg);
+		            transform: rotate(0deg);
+		  }
+		  25% {
+		    -webkit-transform: rotate(90deg);
+		            transform: rotate(90deg);
+		   }
+		  100% {
+		    -webkit-transform: rotate(90deg);
+		            transform: rotate(90deg);
+		  }
+		}
+		
+		@keyframes rotate-group {
+		  0% {
+		    -webkit-transform: rotate(0deg);
+		            transform: rotate(0deg);
+		  }
+		  25% {
+		    -webkit-transform: rotate(90deg);
+		            transform: rotate(90deg);
+		   }
+		  100% {
+		    -webkit-transform: rotate(90deg);
+		            transform: rotate(90deg);
+		  }
+		}
+
+		#scale-01 {
+			-webkit-animation: scale-01 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
+			        animation: scale-01 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
+        -webkit-transform-origin: center;
+            -ms-transform-origin: center;
+            	transform-origin: center;
+		}
+
+		@-webkit-keyframes scale-01 {
+	        0% {
+		        -webkit-transform: scale(0, 0);
+		                transform: scale(0, 0);        
+	        }
+	        100% {
+		        -webkit-transform: scale(1, 1);
+		                transform: scale(1, 1); 
+	       	}
+		}
+
+		@keyframes scale-01 {
+	        0% {
+		        -webkit-transform: scale(0, 0);
+		                transform: scale(0, 0);        
+	        }
+	        100% {
+		        -webkit-transform: scale(1, 1);
+		                transform: scale(1, 1); 
+	       	}
+		}
+
+		#scale-02 {
+			-webkit-animation: scale-01 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.4s both;
+			        animation: scale-01 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.4s both;
+	        -webkit-transform-origin: center;
+	            -ms-transform-origin: center;
+	           		transform-origin: center;
+		}
+
+    </style>
+
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>04_00_animation_chip</title>
+    <desc>Created with Sketch.</desc>
+    <g class="04_00_animation_chip">
+    	<g id="inital-hide">
+    		<g id="rotate-group">
+				<g id="scale-02">
+			        <path d="M668,651 L620,651 L620,550 L519,550 L519,502 L620,502 L620,474 L519,474 L519,426 L620,426 L620,398 L519,398 L519,350 L620,350 L620,249 L668,249 L668,350 L696,350 L696,249 L744,249 L744,350 L772,350 L772,249 L820,249 L820,350 L921,350 L921,398 L820,398 L820,426 L921,426 L921,474 L820,474 L820,502 L921,502 L921,550 L820,550 L820,651 L772,651 L772,550 L744,550 L744,651 L696,651 L696,550 L668,550 L668,651 Z M668,502 L696,502 L696,474 L668,474 L668,502 Z M772,474 L744,474 L744,502 L772,502 L772,474 Z M668,426 L696,426 L696,398 L668,398 L668,426 Z M772,398 L744,398 L744,426 L772,426 L772,398 Z" id="scale-shape" fill="#FF5000"></path>
+			        <rect id="scale-shape" fill="#F7AA34" x="567" y="297" width="306" height="306"></rect>
+		        </g>
+		        <g id="scale-01">
+		        	<rect id="scale-core" fill="#282828" x="666" y="396" width="108" height="108"></rect>
+		        </g>
+	        </g>
+   		 </g>
+    </g>
+</svg>
+
+<!-- Animation by Dominik Meixner, Neue Gestaltung GmbH, 2019 -->

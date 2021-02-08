@@ -1,0 +1,10 @@
+.divider {
+    display: block;
+    padding: 50px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.divider-text {
+    font-size: 16px;
+}

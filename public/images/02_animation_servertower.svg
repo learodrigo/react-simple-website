@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type="text/css">
+
+    /* Animations */
+
+    .slide-in-left-01 {
+        -webkit-animation: slide-in-left-01 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+                animation: slide-in-left-01 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+    }
+
+    @-webkit-keyframes slide-in-left-01 {
+        0% {
+            -webkit-transform: translateX(-1000px);
+                -ms-transform: translateX(-1000px);
+                    transform: translateX(-1000px);
+        }
+        100% {
+            -webkit-transform: translateX(0);
+                -ms-transform: translateX(0);
+                    transform: translateX(0);
+        }
+    }
+    @keyframes slide-in-left-01 {
+        0% {
+            -webkit-transform: translateX(-1000px);
+                -ms-transform: translateX(-1000px);
+                    transform: translateX(-1000px);
+        }
+        100% {
+            -webkit-transform: translateX(0);
+                -ms-transform: translateX(0);
+                    transform: translateX(0);
+        }
+    }
+
+    .slide-in-left-02 {
+        -webkit-animation: slide-in-left-02 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+                animation: slide-in-left-02 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+        -webkit-transform: translateY(282px);
+            -ms-transform: translateY(282px);
+                transform: translateY(282px);
+    }
+
+    @-webkit-keyframes slide-in-left-02 {
+        0% {
+            -webkit-transform: translateY(282px) translateX(-1000px);
+                -ms-transform: translateY(282px) translateX(-1000px);
+                    transform: translateY(282px) translateX(-1000px);
+        }
+        100% {
+            -webkit-transform: translateY(282px) translateX(0);
+                -ms-transform: translateY(282px) translateX(0);
+                    transform: translateY(282px) translateX(0);
+        }
+    }
+    @keyframes slide-in-left-02 {
+        0% {
+            -webkit-transform: translateY(282px) translateX(-1000px);
+                -ms-transform: translateY(282px) translateX(-1000px);
+                    transform: translateY(282px) translateX(-1000px);
+        }
+        100% {
+            -webkit-transform: translateY(282px) translateX(0);
+                -ms-transform: translateY(282px) translateX(0);
+                    transform: translateY(282px) translateX(0);
+      }
+    }
+
+    .slide-in-right-01 {
+        -webkit-animation: slide-in-right-01 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+                animation: slide-in-right-01 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+        -webkit-transform: translateY(141px);
+            -ms-transform: translateY(141px);
+                transform: translateY(141px);
+    }
+
+    @-webkit-keyframes slide-in-right-01 {
+        0% {
+            -webkit-transform: translateY(141px) translateX(1000px);
+                    transform: translateY(141px) translateX(1000px);
+        }
+        100% {
+            -webkit-transform: translateY(141px) translateX(0);
+                    transform: translateY(141px) translateX(0);
+        }
+    }
+    @keyframes slide-in-right-01 {
+        0% {
+            -webkit-transform: translateY(141px) translateX(1000px);
+                    transform: translateY(141px) translateX(1000px);
+        }
+        100% {
+            -webkit-transform: translateY(141px) translateX(0);
+                    transform: translateY(141px) translateX(0);
+      }
+    }
+
+    .slide-in-right-02 {
+        -webkit-animation: slide-in-right-02 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+                animation: slide-in-right-02 1s cubic-bezier(0.680, -0.450, 0.265, 1.550) 0.5s ;
+        -webkit-transform: translateY(423px);
+            -ms-transform: translateY(423px);
+                transform: translateY(423px);
+    }
+
+    @-webkit-keyframes slide-in-right-02 {
+        0% {
+            -webkit-transform: translateY(423px) translateX(1000px);
+                    transform: translateY(423px) translateX(1000px);
+        }
+        100% {
+            -webkit-transform: translateY(423px) translateX(0);
+                    transform: translateY(423px) translateX(0);
+        }
+    }
+    @keyframes slide-in-right-02 {
+        0% {
+            -webkit-transform: translateY(423px) translateX(1000px);
+                    transform: translateY(423px) translateX(1000px);
+        }
+        100% {
+            -webkit-transform: translateY(423px) translateX(0);
+                    transform: translateY(423px) translateX(0);
+      }
+    }
+
+    .light-01 {
+        -webkit-animation: light-01 2s linear 2s infinite both;
+                animation: light-01 2s linear 2s infinite both;
+        opacity: 0;
+    }    
+
+    @-webkit-keyframes light-01 {   
+        0.0%   {opacity: 0;}
+        49.99% {opacity: 0;}
+
+        50.00% {opacity: 1;}
+        100%   {opacity: 1;}
+    }
+
+    @keyframes light-01 {   
+        0.0%   {opacity: 0;}
+        49.99% {opacity: 0;}
+
+        50.00% {opacity: 1;}
+        100%   {opacity: 1;}
+    }
+
+    .light-02 {
+        -webkit-animation: light-02 2s linear 2s infinite both;
+                animation: light-02 2s linear 2s infinite both;
+        opacity: 0;
+    }    
+
+    @-webkit-keyframes light-02 {   
+        0.01%  {opacity: 1;}
+        49.99% {opacity: 1;}
+
+        50.00% {opacity: 0;}
+        100%   {opacity: 0;}
+    }
+
+    @keyframes light-02 {   
+        0.01%  {opacity: 1;}
+        49.99% {opacity: 1;}
+
+        50.00% {opacity: 0;}
+        100%   {opacity: 0;}
+    }
+
+   .servertower {
+        -webkit-animation: servertower 0.6s linear 0s both;
+                animation: servertower 0.6s linear 0s both;
+    }    
+
+    @-webkit-keyframes servertower {   
+        0%   {opacity: 0;}
+        99%  {opacity: 0;}
+        100% {opacity: 1;}
+    }
+
+    @keyframes servertower {   
+        0%   {opacity: 0;}
+        99%  {opacity: 0;}
+        100% {opacity: 1;}
+    }
+
+    </style>
+
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>02_00_animation_servertower</title>
+    <desc>Created with Sketch.</desc>
+    <g id="02_00_animation_servertower" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="servertower" transform="translate(459, 176.000000)">
+
+            <g class="slide-in-left-01" transform="translate(0, 0)">
+                <rect id="block-01" fill="#F7AA34" x="0" y="0" width="522" height="125"></rect>
+                <circle class="light" fill="#FF5000" cx="62.5" cy="62.5" r="26.5"></circle>
+                <circle class="light-01" fill="#F9F8EA" cx="62.5" cy="62.5" r="26.5"></circle>
+            </g>
+
+            <g class="slide-in-right-01" transform="translate(0, 141)">
+                <rect id="block-02" fill="#F7AA34" x="0" y="0" width="522" height="125"></rect>
+                <circle class="light" fill="#FF5000" cx="62.5" cy="62.5" r="26.5"></circle>
+                <circle class="light-02" fill="#F9F8EA" cx="62.5" cy="62.5" r="26.5"></circle>
+            </g>
+
+            <g class="slide-in-left-02" transform="translate(0, 282)">
+                <rect id="block-03" fill="#F7AA34" x="0" y="0" width="522" height="125"></rect>
+                <circle class="light" fill="#FF5000" cx="62.5" cy="62.5" r="26.5"></circle>
+                <circle class="light-01" fill="#F9F8EA" cx="62.5" cy="62.5" r="26.5"></circle>
+            </g>
+
+            <g class="slide-in-right-02" transform="translate(0, 423)">
+                <rect id="block-04" fill="#F7AA34" x="0" y="0" width="522" height="125"></rect>
+                <circle class="light" fill="#FF5000" cx="62.5" cy="62.5" r="26.5"></circle>
+                <circle class="light-02" fill="#F9F8EA" cx="62.5" cy="62.5" r="26.5"></circle>
+            </g>
+
+        </g>
+    </g>
+</svg>
+
+<!-- Animation by Dominik Meixner, Neue Gestaltung GmbH, 2019 -->

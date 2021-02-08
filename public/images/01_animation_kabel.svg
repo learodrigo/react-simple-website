@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="900px" viewBox="0 0 1440 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type="text/css">
+
+        /* Animations */
+
+        #inital-hide {
+            -webkit-animation: inital-hide 0.2s linear 0s both;
+                    animation: inital-hide 0.2s linear 0s both;
+            -webkit-transform: translateY(-200px);
+                    transform: translateY(-200px);
+        }    
+
+        @-webkit-keyframes inital-hide {   
+          0%   {opacity: 0;}
+          99%  {opacity: 0;}
+          100% {opacity: 1;}
+        }
+
+        @keyframes inital-hide {   
+          0%   {opacity: 0;}
+          99%  {opacity: 0;}
+          100% {opacity: 1;}
+        }
+
+        .bounce-in-bck-1 {
+            -webkit-animation: bounce-in-bck 1.5s 0.4s both;
+                    animation: bounce-in-bck 1.5s 0.4s both;
+        }
+
+        .bounce-in-bck-2 {
+            -webkit-animation: bounce-in-bck 1.5s 0.2s both;
+                    animation: bounce-in-bck 1.5s 0.2s both;
+        }
+
+        .bounce-in-bck-3 {
+            -webkit-animation: bounce-in-bck 1.5s 0.3s both;
+                    animation: bounce-in-bck 1.5s 0.3s both;
+        }
+
+        @-webkit-keyframes bounce-in-bck {
+          0% {
+            -webkit-transform: translateY(800px);
+                    transform: translateY(800px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          38% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          55% {
+            -webkit-transform: translateY(65px);
+                    transform: translateY(65px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          72% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          81% {
+            -webkit-transform: translateY(28px);
+                    transform: translateY(28px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          90% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          95% {
+            -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          100% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+        }
+        @keyframes bounce-in-bck {
+          0% {
+            -webkit-transform: translateY(800px);
+                    transform: translateY(800px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          38% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          55% {
+            -webkit-transform: translateY(65px);
+                    transform: translateY(65px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          72% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          81% {
+            -webkit-transform: translateY(28px);
+                    transform: translateY(28px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          90% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+          95% {
+            -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+            -webkit-animation-timing-function: ease-in;
+                    animation-timing-function: ease-in;
+          }
+          100% {
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+            -webkit-animation-timing-function: ease-out;
+                    animation-timing-function: ease-out;
+          }
+        }
+
+    </style>
+
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>00-00_animation_kabel-02</title>
+    <desc>Created with Sketch.</desc>
+    <g id="inital-hide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="bounce-in-bck-3">
+            <rect id="3-3" fill="#FF5000" x="921" y="432" width="72" height="37"></rect>
+            <rect id="3-1" fill="#282828" x="897" y="469" width="120" height="136"></rect>
+            <rect id="3-0" fill="#F9F8EA" x="939" y="605" width="36" height="495"></rect>
+        </g>
+        <g class="bounce-in-bck-2">
+            <rect id="2-2" fill="#FF5000" x="685" y="230" width="72" height="37"></rect>
+            <rect id="2-1" fill="#282828" x="661" y="267" width="120" height="136"></rect>
+            <rect id="2-0" fill="#F9F8EA" x="703" y="403" width="36" height="697"></rect>
+        </g>
+        <g class="bounce-in-bck-1">
+            <rect id="1-2" fill="#FF5000" x="447" y="369" width="72" height="37"></rect>
+            <rect id="1-1" fill="#282828" x="423" y="406" width="120" height="136"></rect>
+            <rect id="1-0" fill="#F9F8EA" x="465" y="542" width="36" height="558"></rect>
+        </g>    
+    </g>
+</svg>
+
+<!-- Animation by Dominik Meixner, Neue Gestaltung GmbH, 2019 -->

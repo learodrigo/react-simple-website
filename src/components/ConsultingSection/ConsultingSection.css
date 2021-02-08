@@ -1,0 +1,22 @@
+.consulting-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0 200px;
+}
+
+.section__text {
+
+    width: calc((100% / 12) * 7);
+}
+
+.section__links {
+    color: black;
+    list-style-type: '→  ';
+    padding: 0;
+    margin: 0;
+    width: calc((100% / 12) * 3);
+}
+
+.section__links a {
+    color: black;
+}

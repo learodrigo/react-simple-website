@@ -1,0 +1,11 @@
+.show-botton {
+    display: inline-block;
+    opacity: 1;
+}
+
+@media screen and (max-width: 550px) {
+    .show-botton {
+        display: none;
+        opacity: 0;
+    }
+}
