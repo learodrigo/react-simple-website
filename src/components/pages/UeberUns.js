@@ -1,7 +1,6 @@
 import '../../App.css'
 
 import Divider from '../Divider/Divider'
-import Footer from '../Footer/Footer'
 import ImageDivider from '../ImageDivider/ImageDivider'
 import ConsultingSection from "../ConsultingSection/ConsultingSection"
 
@@ -15,7 +14,6 @@ const UeberUns = () => {
             />
             <Divider text='Über Uns ↓' />
             <ConsultingSection />
-            <Footer />
         </>
     )
 }

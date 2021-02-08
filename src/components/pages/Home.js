@@ -2,7 +2,6 @@ import '../../App.css'
 
 import ConsultingSection from '../ConsultingSection/ConsultingSection'
 import Divider from '../Divider/Divider'
-import Footer from '../Footer/Footer'
 import ImageDivider from '../ImageDivider/ImageDivider'
 import PartnersSection from "../PartnersSection/PartnersSection"
 import ServicesSection from "../ServicesSection/ServicesSection"
@@ -31,7 +30,6 @@ const Home = () => {
             />
             <Divider text='Unsere Partner' />
             <PartnersSection />
-            <Footer />
         </>
     )
 }
