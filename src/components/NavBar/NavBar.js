@@ -2,11 +2,12 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import Button from '../Button/Button'
+import Support from '../modals/Support/Support'
+
 import './NavBar.css'
 
 const NavBar = () => {
     const [ click, setClick ] = useState(false)
-    const [ button, setButton ] = useState(true)
 
     const handleClick = () => setClick(!click)
     const closeMobileMenu = () => setClick(false)
@@ -14,21 +15,14 @@ const NavBar = () => {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-events">
-                    {button && <>
-                        <Button
-                            buttonStyle='btn--outline show-botton'
-                            onClick={closeMobileMenu}
-                        >
-                            Support
-                        </Button>
-                        <Button
-                            onClick={handleClick}
-                            buttonStyle={`navbar-icon squre show-botton ${click ? 'rotated' : ''}`}
-                        >
-                            +
-                        </Button>
-                    </>}
+                <div className="navbar-menu">
+                    <Support />
+                    <Button
+                        onClick={handleClick}
+                        buttonStyle={`navbar-icon squre show-botton ${click ? 'rotated' : ''}`}
+                    >
+                        +
+                    </Button>
                 </div>
 
                 <div className={click ? 'navbar-container' : 'hidden'}>

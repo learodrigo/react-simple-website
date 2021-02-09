@@ -4,7 +4,6 @@ import './Button.css'
 
 const Button = ({
     children,
-    type,
     onClick,
     buttonStyle
 }) => {
