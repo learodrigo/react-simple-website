@@ -19,9 +19,9 @@ const NavBar = () => {
                     <Support />
                     <Button
                         onClick={handleClick}
-                        buttonStyle={`navbar-icon squre show-botton ${click ? 'rotated' : ''}`}
+                        buttonStyle='navbar-icon squre show-botton'
                     >
-                        +
+                        <img src='images/menu.svg' alt='Menu icon' className={click ? 'rotated' : ''} />
                     </Button>
                 </div>
 

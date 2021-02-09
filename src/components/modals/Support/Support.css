@@ -1,0 +1,37 @@
+.modal {
+    background-color: #f9f8ea;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.modal .container {
+    height: 100%;
+}
+
+.modal-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal__information {
+    padding-top: 50px;
+}
+
+.modal__information h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.information__text {
+    display: block;
+    width: calc(100% / 12 * 7)
+}
+
+.modal__button {
+    border-radius: 0;
+
+}
