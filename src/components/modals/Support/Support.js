@@ -28,31 +28,35 @@ Max`
             }
 
             {modal && <div className='modal'>
-                <div className='container'>
+                <div className='container yellow'>
                     <Button
                         onClick={closeModal}
-                        buttonStyle='navbar-icon squre show-botton'
+                        buttonStyle='navbar-icon squre show-botton modal__button'
                     >
                         <img src='images/menu.svg' alt='Menu icon' className={modal ? 'rotated' : ''} />
                     </Button>
-                    <div className='modal-container'>
-                        <div className='modal__information'>
-                            <h2 className='font-mono'>Support</h2>
-                            <div className='information__text font-sans'>
-                                <p>
-                                    Kontaktieren Sie uns unter unserer Rufnummer +49 89 5566778-0 oder senden Sie uns eine Nachricht über das unten stehende Kontakt-Formular.<br />
-                                    <br />
-                                    Über unser Ticketsystem können Sie Unterstützung anforden. Unsere Fernwartung hilft Ihnen gerne!
-                                </p>
-                            </div>
-                            <div className='information__buttons'>
-                                <button className='font-mono'>Ticket erstellen</button>
-                                <button className='font-mono'>Fernwartung</button>
-                            </div>
-                        </div>
 
-                        <div className='modal__links font-mono'>
-                            <a href='#'>→ Download-Link zum aktuellen TeamViewer</a>
+                    <div className='modal-container'>
+                        <h2 className='font-mono'>Support</h2>
+
+                        <div className='row'>
+                            <div className='modal__information'>
+                                <div className='information__text font-sans'>
+                                    <p>
+                                        Kontaktieren Sie uns unter unserer Rufnummer <u>+49 89 5566778-0</u> oder senden Sie uns eine Nachricht über das unten stehende <u>Kontakt-Formular</u>.<br />
+                                        <br />
+                                        Über unser Ticketsystem können Sie Unterstützung anforden. Unsere Fernwartung hilft Ihnen gerne!
+                                    </p>
+                                </div>
+                                <div className='information__buttons'>
+                                    <button className='font-mono'>Ticket erstellen</button>
+                                    <button className='font-mono'>Fernwartung</button>
+                                </div>
+                            </div>
+
+                            <div className='modal__links font-mono'>
+                                <a href='#'>→ Download-Link zum aktuellen TeamViewer</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,23 +68,23 @@ Max`
                 <div className='container'>
                     <form className='modal__form'>
                         <div className='form__big'>
-                            <label htmlFor="help-textarea">Wie können wir helfen?</label>
-                            <textarea id="help-textarea" name="help-textarea" defaultValue={defaultTextArea}>
+                            <label className='form__label font-mono' htmlFor="help-textarea">Wie können wir helfen?</label>
+                            <textarea className='font-sans' id="help-textarea" name="help-textarea" defaultValue={defaultTextArea}>
                             </textarea>
                         </div>
                         <div className='form__double'>
                             <div>
-                                <label htmlFor="name">Vorname</label>
-                                <input type='text' placeholder='Max' id='name' name='name' />
+                                <label className='form__label font-mono' htmlFor="name">Vorname</label>
+                                <input className='font-sans' type='text' placeholder='Max' id='name' name='name' />
                             </div>
                             <div>
-                                <label htmlFor="surname">Nachname</label>
-                                <input type='text' placeholder='Mustermann' id='surname' name='surname' />
+                                <label className='form__label font-mono' htmlFor="surname">Nachname</label>
+                                <input className='font-sans' type='text' placeholder='Mustermann' id='surname' name='surname' />
                             </div>
                         </div>
                         <div className='form__simple'>
-                            <label htmlFor="email">E-Mail</label>
-                            <input type='email' placeholder='max.mustermann@web.de' id='email' name='email' />
+                            <label className='form__label font-mono' htmlFor="email">E-Mail</label>
+                            <input className='font-sans' type='email' placeholder='max.mustermann@web.de' id='email' name='email' />
                         </div>
                         <div className='form__submit'>
                             <button className='submit__button'>

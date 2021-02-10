@@ -40,7 +40,8 @@
     color: #282828 !important;
 }
 
-.navbar-contact {
+.navbar-contact,
+.navbar .navbar-item .font-sans {
     color: #fff;
 }
 
