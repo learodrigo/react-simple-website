@@ -9,4 +9,12 @@ export const Wrapper = styled.div`
     .divider-text {
         font-size: 16px;
     }
+
+    @media(max-width: 768px) {
+        padding: 14px 0;
+
+        .divider-text {
+            font-size: 14px;
+        }
+    }
 `

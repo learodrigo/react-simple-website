@@ -21,7 +21,7 @@ const Home = () => {
             <ImageDivider
                 srcImage='/images/02_animation_servertower.svg'
                 altImge='Server tower animation'
-                extraClass='yellow'
+                extraClass='yellow center'
             />
 
             <Divider text='Leistungen' id='leistungen' />
@@ -30,7 +30,7 @@ const Home = () => {
             <ImageDivider
                 srcImage='/images/03_animation_serverlights.svg'
                 altImge='Server lights animation'
-                extraClass='red'
+                extraClass='red center rotated'
             />
 
             <Divider text='Unsere Partner' id='unsere-partners' />

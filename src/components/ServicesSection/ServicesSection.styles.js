@@ -33,4 +33,21 @@ export const Wrapper = styled.div`
         margin: 0 auto;
         width: 200px;
     }
+
+    @media(max-width: 768px) {
+        .container__list {
+            margin-bottom: 40px;
+            padding-top: 80px;
+        }
+
+        .list__item {
+            margin-bottom: 60px !important;
+            margin-right: 0 !important;
+            width: 100%;
+
+            h3, p {
+                font-size: 14px;
+            }
+        }
+    }
 `

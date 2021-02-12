@@ -39,4 +39,23 @@ export const Wrapper = styled.div`
             margin-bottom: 68px;
         }
     }
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        margin: 130px 0 60px;
+
+        h2 {
+            font-size: 14px;
+            margin-bottom: 60px;
+        }
+
+        .impressum__intro {
+            font-size: 14px;
+            margin-bottom: 60px !important;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
 `

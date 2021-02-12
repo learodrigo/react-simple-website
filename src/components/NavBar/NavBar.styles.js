@@ -62,4 +62,20 @@ export const Wrapper = styled.nav`
         color: #fff;
         font-size: 16px;
     }
+
+    @media(max-width: 768px) {
+        width: 100%;
+
+        .navbar__container {
+            width: 100%;
+        }
+
+        a.font-sans {
+            font-size: 22px !important;
+        }
+
+        .navbar__contact {
+            font-size: 14px;
+        }
+    }
 `

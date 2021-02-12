@@ -25,4 +25,28 @@ export const Wrapper = styled.div`
         margin-bottom: 24px;
         text-align: left;
     }
+
+    @media(max-width: 768px) {
+        flex-direction: column;
+        margin: 130px 0 60px;
+        font-size: 14px;
+
+        h2 {
+            font-size: 14px;
+            margin-bottom: 60px;
+        }
+
+        h3 {
+            font-size: 14px;
+            margin-bottom: 14px
+        }
+
+        .impressum__intro {
+            margin-bottom: 60px !important;
+        }
+
+        div {
+            width: 100%;
+        }
+    }
 `

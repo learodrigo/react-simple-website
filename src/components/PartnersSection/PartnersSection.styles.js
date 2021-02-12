@@ -28,4 +28,20 @@ export const Wrapper = styled.div`
         margin: 0 auto;
         width: auto;
     }
+
+    @media(max-width: 768px) {
+        .container__list {
+            padding-bottom: 52px;
+        }
+
+        .list__item {
+            width: 98px;
+            margin-right: 48px !important;
+            margin-bottom: 48px !important;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
 `

@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+.App {
+    overflow-x: hidden !important;
+    position: relative;
+}
+
 .top-logo {
     color: #282828;
     font-size: 28px;
@@ -43,9 +48,8 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .container {
-        width: 95%;
+@media screen and (max-width: 768px) {
+    .top-logo {
+        display: none;
     }
-
 }

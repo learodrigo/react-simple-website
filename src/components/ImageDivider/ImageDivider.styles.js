@@ -31,5 +31,22 @@ export const Wrapper = styled.div`
         display: block;
         margin: 0 auto;
         width: calc(100% / 12 * 8);
+
+    }
+
+    @media(max-width: 768px) {
+        height: 518px;
+
+        .image-divider__image-container {
+            &.rotated > img {
+                transform: rotate(90deg)
+            }
+        }
+
+        .image-divider__img {
+            position: relative ;
+            left: -25% ;
+            width: 150%;
+        }
     }
 `

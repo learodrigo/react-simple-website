@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import { Wrapper } from './ConsultingSection.styles'
 
-const ConsultingSection = () => {
+const ConsultingSection = ({ link = '' }) => {
     return (
         <Wrapper className='container'>
                 <div className="section__text">
@@ -15,17 +15,26 @@ const ConsultingSection = () => {
                 </div>
 
                 <ul className="section__links">
+                    {!link ? <>
+                        <li>
+                            <Link className="font-mono" to='/ueber-uns'>
+                            Erfahre mehr über uns
+                            </Link>
+                        </li>
+                        <br />
+                        <li>
+                            <Link className="font-mono" to='/#leistungen'>
+                                Unsere Leistungen im Überblick
+                            </Link>
+                        </li>
+                    </>
+                    :
                     <li>
-                        <Link className="font-mono" to='/ueber-uns'>
-                        Erfahre mehr über uns
-                        </Link>
+                        <a href='#' className="font-mono">
+                            {link}
+                        </a>
                     </li>
-                    <br />
-                    <li>
-                        <Link className="font-mono" to='/#leistungen'>
-                            Unsere Leistungen im Überblick
-                        </Link>
-                    </li>
+                    }
                 </ul>
         </Wrapper>
     )

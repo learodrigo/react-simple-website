@@ -26,4 +26,18 @@ export const Wrapper = styled.footer`
         color: white;
         display: block;
     }
+
+    @media(max-width: 768px) {
+        padding: 60px 0 55px;
+
+        .container {
+            flex-direction: column;
+
+            > div {
+                margin-bottom: 45px;
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+    }
 `
