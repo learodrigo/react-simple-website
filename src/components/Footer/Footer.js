@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom'
-
-import './Footer.css'
+import { Wrapper } from './Footer.styles'
 
 const ServicesSection = () => {
     return (
-        <footer className="footer">
+        <Wrapper>
             <div className='container font-mono'>
                 <div className='footer__links'>
                     <a href='/#consulting' className="footer__link">
@@ -56,7 +55,7 @@ const ServicesSection = () => {
                     </p>
                 </div>
             </div>
-        </footer>
+        </Wrapper>
     )
 }
 

@@ -37,47 +37,6 @@ a:hover {
     width: 1240px;
 }
 
-.data-privacy__container,
-.impressum__container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 224px;
-}
-
-.data-privacy__container h1,
-.impressum__container h1 {
-    font-size: 16px;
-    margin-bottom: 72px;
-}
-
-.data-privacy__container > div,
-.impressum__container > div {
-    margin-right: 98px;
-    width: 50%;
-}
-
-.data-privacy__container > div:last-child,
-.impressum__container > div:last-child {
-    margin: 0;
-}
-
-.data-privacy__container p,
-.impressum__container p {
-    display: block;
-    margin-bottom: 44px;
-}
-
-.data-privacy__container h2,
-.impressum__container h2 {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 24px;
-}
-
-p.impressum__intro {
-    margin-bottom: 68px;
-}
-
 @media screen and (max-width: 1239px) {
     .container {
         width: 90%;

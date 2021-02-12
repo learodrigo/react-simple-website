@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom'
-
-import './Button.css'
+import { Wrapper } from './Button.styles'
 
 const Button = ({
     children,
@@ -8,7 +6,7 @@ const Button = ({
     buttonStyle
 }) => {
     return (
-        <Link to='/' className="btn-mobile">
+        <Wrapper className='btn-mobile'>
             <button
                 className={`btn font-mono ${buttonStyle}`}
                 onClick={onClick}
@@ -16,7 +14,7 @@ const Button = ({
             >
                 { children }
             </button>
-        </Link>
+        </Wrapper>
     )
 }
 

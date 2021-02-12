@@ -1,25 +1,31 @@
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
-import DataPrivacy from "./components/pages/DataPrivacy";
-import Home from './components/pages/Home'
-import Impressum from './components/pages/Impressum'
-import UeberUns from './components/pages/UeberUns'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+
+import DataPrivacy from './pages/DataPrivacy/DataPrivacy'
+import Home from './pages/Home/Home'
+import Impressum from './pages/Impressum/Impressum'
+import UeberUns from './pages/UeberUns/UeberUns'
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 const App = () => {
     return (
-        <div className="App">
+        <div className='App'>
             <Router>
+                <ScrollToTop />
+
                 <Link to='/'>
                     <h1 className='top-logo font-sans'>IT consultant</h1>
                 </Link>
+
                 <NavBar />
+
                 <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/ueber-uns" exact component={UeberUns} />
-                    <Route path="/impressum" exact component={Impressum} />
-                    <Route path="/datenschutz" exact component={DataPrivacy} />
+                    <Route path='/' exact component={Home} />
+                    <Route path='/ueber-uns' exact component={UeberUns} />
+                    <Route path='/impressum' exact component={Impressum} />
+                    <Route path='/datenschutz' exact component={DataPrivacy} />
                 </Switch>
                 <Footer />
             </Router>

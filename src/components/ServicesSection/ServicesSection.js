@@ -1,4 +1,4 @@
-import './ServicesSection.css'
+import { Wrapper } from './ServicesSection.styles'
 
 const items = [
     {
@@ -35,7 +35,7 @@ const items = [
 
 const ServicesSection = () => {
     return (
-        <div className="services-section__container container">
+        <Wrapper className='container'>
             <ul className='container__list'>
                 {items.map((item, index) => (
                     <li key={index} className='list__item'>
@@ -43,11 +43,12 @@ const ServicesSection = () => {
                             <img src={item.img} alt={item.title} />
                         </div>
                         <h3 className='font-mono'>{item.title}</h3>
+                        <br />
                         <p className='font-mono'>{item.desc}</p>
                     </li>
                 ))}
             </ul>
-        </div>
+        </Wrapper>
     )
 }
 

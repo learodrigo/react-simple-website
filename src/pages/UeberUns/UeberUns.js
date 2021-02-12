@@ -1,8 +1,8 @@
 import '../../App.css'
 
-import Divider from '../Divider/Divider'
-import ImageDivider from '../ImageDivider/ImageDivider'
-import ConsultingSection from "../ConsultingSection/ConsultingSection"
+import Divider from '../../components/Divider/Divider'
+import ImageDivider from '../../components/ImageDivider/ImageDivider'
+import ConsultingSection from '../../components/ConsultingSection/ConsultingSection'
 
 const UeberUns = () => {
     return (
@@ -12,7 +12,9 @@ const UeberUns = () => {
                 altImge='Chip animation'
                 extraClass='yellow'
             />
+
             <Divider text='Über Uns ↓' />
+
             <ConsultingSection />
         </>
     )

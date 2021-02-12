@@ -1,10 +1,10 @@
-import './Divider.css'
+import { Wrapper } from './Divider.styles'
 
 const Divider = ({ text, id = null }) => {
     return (
-        <div className="divider">
-            <a className="divider-text font-mono" name={id}>{text}</a>
-        </div>
+        <Wrapper>
+            <p className="divider-text font-mono" id={id} name={id}>{text}</p>
+        </Wrapper>
     )
 }
 

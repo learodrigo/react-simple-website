@@ -1,4 +1,4 @@
-import './PartnersSection.css'
+import { Wrapper } from './PartnersSection.styles'
 
 const images = [
     {
@@ -29,7 +29,7 @@ const images = [
 
 const ServicesSection = () => {
     return (
-        <div className="partners-section__container container">
+        <Wrapper className='container'>
             <ul className='container__list'>
                 {images.map((img, index) => (
                     <li key={index} className='list__item'>
@@ -39,7 +39,7 @@ const ServicesSection = () => {
                     </li>
                 ))}
             </ul>
-        </div>
+        </Wrapper>
     )
 }
 

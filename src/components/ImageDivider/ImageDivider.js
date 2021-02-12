@@ -1,16 +1,16 @@
-import './ImageDivider.css'
+import { Wrapper } from './ImageDivider.styles'
 
 const ImageDivider = ({ srcImage, altImge, extraClass = '' }) => {
     return (
-        <div className={`image-divider__container ${extraClass}`}>
+        <Wrapper className={extraClass}>
             <div className={`image-divider__image-container ${extraClass}`}>
                 <img
-                    className={`image-divider__img ${extraClass}`}
+                    className='image-divider__img'
                     src={srcImage}
                     alt={altImge}
                 />
             </div>
-        </div>
+        </Wrapper>
     )
 }
 

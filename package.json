@@ -1,5 +1,7 @@
 {
-  "name": "neue-gestaltung",
+  "name": "react-simple-app",
+  "description": "Simple react website, all designs by neue gestaltung GmbH",
+  "author": "Leandro Rodrigo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

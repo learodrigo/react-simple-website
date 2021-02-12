@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import Button from '../../Button/Button'
-import Divider from '../../Divider/Divider'
+import Button from '../../components/Button/Button'
+import Divider from '../../components/Divider/Divider'
 
-import './Support.css'
+import { Wrapper } from './Support.styles'
 
 const Support = () => {
     const [ modal, setModal ] = useState(false)
@@ -18,7 +18,7 @@ Viele Grüße
 Max`
 
     return (
-        <>
+        <Wrapper>
             {!modal && <Button
                     buttonStyle='btn--outline show-botton modal__button'
                     onClick={openModal}
@@ -95,7 +95,7 @@ Max`
                 </div>
             </div>
             }
-        </>
+        </Wrapper>
     )
 }
 

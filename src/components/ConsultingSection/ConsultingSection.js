@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom'
 
-import './ConsultingSection.css'
+import { Wrapper } from './ConsultingSection.styles'
 
 const ConsultingSection = () => {
     return (
-        <div className="container">
-            <div className='consulting-section'>
+        <Wrapper className='container'>
                 <div className="section__text">
                     <p className="font-sans">
                         Die IT-Struktur sinnvoll und effizient zu konzipieren steht für uns im Vordergrund.. Was Ihr Unternehmen genau braucht, analysieren wir in einer fundierten und kostenfreien Erstberatung. Denn jedes Unternehmen ist anders – durch unsere jahrelange Erfahrung können wir auf spezielle Wünsche und Anforderungen eingehen.
@@ -18,17 +17,17 @@ const ConsultingSection = () => {
                 <ul className="section__links">
                     <li>
                         <Link className="font-mono" to='/ueber-uns'>
-                            Über uns
+                        Erfahre mehr über uns
                         </Link>
                     </li>
+                    <br />
                     <li>
                         <Link className="font-mono" to='/#leistungen'>
                             Unsere Leistungen im Überblick
                         </Link>
                     </li>
                 </ul>
-            </div>
-        </div>
+        </Wrapper>
     )
 }
 
