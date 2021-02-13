@@ -1,8 +1,16 @@
+import { Helmet } from 'react-helmet'
+
 import { Wrapper } from './Impressum.styles'
 
 const Impressum = () => {
     return (
         <div className='container'>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Impressum | Leandro Rodrigo</title>
+                <meta name="description" content="Impressum page" />
+            </Helmet>
+
             <Wrapper>
                 <div className='column font-mono'>
                     <h2 className='font-mono'>Impressum</h2>

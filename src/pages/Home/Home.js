@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet"
+
 import '../../App.css'
 
 import ConsultingSection from '../../components/ConsultingSection/ConsultingSection'
@@ -9,6 +11,12 @@ import ServicesSection from '../../components/ServicesSection/ServicesSection'
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home | Leandro Rodrigo</title>
+                <meta name="description" content="Home page" />
+            </Helmet>
+
             <ImageDivider
                 srcImage='/images/01_animation_kabel.svg'
                 altImge='Cables animation'

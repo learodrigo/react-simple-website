@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 import { Wrapper } from './NotFound.styles'
@@ -5,6 +6,12 @@ import { Wrapper } from './NotFound.styles'
 const NotFound = () => {
     return (
         <Wrapper className='container'>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Not found | Leandro Rodrigo</title>
+                <meta name="description" content="Data privacy page" />
+            </Helmet>
+
             <img src='./images/giphy.gif' alt='Denver Futurama' />
             <div>
                 <h1 className='font-mono'>Error 404: Page not found</h1>

@@ -1,8 +1,15 @@
+import { Helmet } from "react-helmet"
 import { Wrapper } from './DataPrivacy.styles'
 
 const DataPrivacy = () => {
     return (
         <div className='container'>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Datenschutzerklärung | Leandro Rodrigo</title>
+                <meta name="description" content="Data privacy page" />
+            </Helmet>
+
             <Wrapper>
                 <div className='column font-mono'>
                     <h2 className='font-mono'>Datenschutzerklärung</h2>
