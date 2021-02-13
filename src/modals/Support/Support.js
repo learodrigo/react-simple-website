@@ -3,7 +3,9 @@ import Divider from '../../components/Divider/Divider'
 
 import { Wrapper } from './Support.styles'
 
-const Support = ({ isModalOpened, closeModal }) => {
+const SupportModal = ({ isModalOpened, closeModal }) => {
+    const handleOnClick = (e) => e.preventDefault()
+
     const defaultTextArea = `Hi,
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
@@ -30,8 +32,8 @@ Max`
                             Über unser Ticketsystem können Sie Unterstützung anforden. Unsere Fernwartung hilft Ihnen gerne!
                         </p>
                         <div className='modal__buttons'>
-                            <button className='font-mono'>Ticket erstellen</button>
-                            <button className='font-mono'>Fernwartung</button>
+                            <button onClick={handleOnClick} className='font-mono'>Ticket erstellen</button>
+                            <button onClick={handleOnClick} className='font-mono'>Fernwartung</button>
                         </div>
                     </div>
                     <div className='info__link'>
@@ -71,7 +73,7 @@ Max`
                         </div>
 
                         <div className='modal__buttons'>
-                            <button className='submit__button'>
+                            <button onClick={handleOnClick} className='submit__button'>
                                 Abschicken
                             </button>
                         </div>
@@ -90,4 +92,4 @@ Max`
     )
 }
 
-export default Support
+export default SupportModal
