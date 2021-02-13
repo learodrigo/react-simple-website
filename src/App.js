@@ -2,6 +2,8 @@ import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
+import SupperModal from './modals/Support/Support'
+
 import DataPrivacy from './pages/DataPrivacy/DataPrivacy'
 import Home from './pages/Home/Home'
 import Impressum from './pages/Impressum/Impressum'
@@ -26,6 +28,7 @@ const App = () => {
                     <Route path='/ueber-uns' exact component={UeberUns} />
                     <Route path='/impressum' exact component={Impressum} />
                     <Route path='/datenschutz' exact component={DataPrivacy} />
+                    <Route path='/modal' exact component={SupperModal} />
                 </Switch>
                 <Footer />
             </Router>

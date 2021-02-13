@@ -22,6 +22,13 @@ export const Wrapper = styled.nav`
         position: absolute;
         top: 30px;
         z-index: 9999;
+
+        .modal__button {
+            border-radius: 25px;
+            height: 50px;
+            margin-right: 16px;
+            padding: 13px 26px;
+        }
     }
 
     .navbar__container {

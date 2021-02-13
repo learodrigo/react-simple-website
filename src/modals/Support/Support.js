@@ -1,16 +1,9 @@
-import { useState } from 'react'
-
 import Button from '../../components/Button/Button'
 import Divider from '../../components/Divider/Divider'
 
 import { Wrapper } from './Support.styles'
 
-const Support = () => {
-    const [ modal, setModal ] = useState(false)
-
-    const openModal = () => setModal(!modal)
-    const closeModal = () => setModal(false)
-
+const Support = ({ isModalOpened, closeModal }) => {
     const defaultTextArea = `Hi,
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
@@ -19,57 +12,46 @@ Max`
 
     return (
         <Wrapper>
-            {!modal && <Button
-                    buttonStyle='btn--outline show-botton modal__button'
-                    onClick={openModal}
-                >
-                    Support
-                </Button>
-            }
+            <Button
+                onClick={closeModal}
+                buttonStyle='navbar__icon squre'
+            >
+                <img src='images/menu.svg' alt='Menu icon' />
+            </Button>
 
-            {modal && <div className='modal'>
-                <div className='container yellow'>
-                    <Button
-                        onClick={closeModal}
-                        buttonStyle='navbar-icon squre show-botton modal__button'
-                    >
-                        <img src='images/menu.svg' alt='Menu icon' className={modal ? 'rotated' : ''} />
-                    </Button>
+            <div className='modal__yellow'>
+                <Divider text='Support' />
 
-                    <div className='modal-container'>
-                        <h2 className='font-mono'>Support</h2>
-
-                        <div className='row'>
-                            <div className='modal__information'>
-                                <div className='information__text font-sans'>
-                                    <p>
-                                        Kontaktieren Sie uns unter unserer Rufnummer <u>+49 89 5566778-0</u> oder senden Sie uns eine Nachricht über das unten stehende <u>Kontakt-Formular</u>.<br />
-                                        <br />
-                                        Über unser Ticketsystem können Sie Unterstützung anforden. Unsere Fernwartung hilft Ihnen gerne!
-                                    </p>
-                                </div>
-                                <div className='information__buttons'>
-                                    <button className='font-mono'>Ticket erstellen</button>
-                                    <button className='font-mono'>Fernwartung</button>
-                                </div>
-                            </div>
-
-                            <div className='modal__links font-mono'>
-                                <a href='#'>→ Download-Link zum aktuellen TeamViewer</a>
-                            </div>
+                <div className='container modal__info'>
+                    <div className='info__column'>
+                        <p className='information__text font-sans'>
+                            Kontaktieren Sie uns unter unserer Rufnummer <u>+49 89 5566778-0</u> oder senden Sie uns eine Nachricht über das unten stehende <a href='#kontakt' >Kontakt-Formular</a>.<br />
+                            <br />
+                            Über unser Ticketsystem können Sie Unterstützung anforden. Unsere Fernwartung hilft Ihnen gerne!
+                        </p>
+                        <div className='modal__buttons'>
+                            <button className='font-mono'>Ticket erstellen</button>
+                            <button className='font-mono'>Fernwartung</button>
                         </div>
                     </div>
+                    <div className='info__link'>
+                        <ul className='link font-mono'>
+                            <li>
+                                <a href='#'>Download-Link zum aktuellen TeamViewer</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
 
-                <div className='modal__divider'>
-                    <Divider text='Kontakt' id='kontakt' />
-                </div>
+            <div className='modal__dark' id='kontakt'>
+                <Divider text='Kontakt' />
 
-                <div className='container'>
+                <div className='container modal__column'>
                     <form className='modal__form'>
                         <div className='form__big'>
                             <label className='form__label font-mono' htmlFor="help-textarea">Wie können wir helfen?</label>
-                            <textarea className='font-sans' id="help-textarea" name="help-textarea" defaultValue={defaultTextArea}>
+                            <textarea className='font-sans' id="help-textarea" name="help-textarea" placeholder={defaultTextArea}>
                             </textarea>
                         </div>
                         <div className='form__double'>
@@ -82,19 +64,28 @@ Max`
                                 <input className='font-sans' type='text' placeholder='Mustermann' id='surname' name='surname' />
                             </div>
                         </div>
+
                         <div className='form__simple'>
                             <label className='form__label font-mono' htmlFor="email">E-Mail</label>
                             <input className='font-sans' type='email' placeholder='max.mustermann@web.de' id='email' name='email' />
                         </div>
-                        <div className='form__submit'>
+
+                        <div className='modal__buttons'>
                             <button className='submit__button'>
                                 Abschicken
                             </button>
                         </div>
                     </form>
+
+                    <div className='info__link'>
+                        <ul className='link font-mono'>
+                            <li>
+                                <a className='white' href='mailto:info@enter-support.de'>info@enter-support.de</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            }
         </Wrapper>
     )
 }

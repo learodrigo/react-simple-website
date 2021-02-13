@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body.no-scroll {
+    overflow-y: hidden;
+}
+
 .App {
     overflow-x: hidden !important;
     position: relative;
@@ -40,6 +44,10 @@ a:hover {
     display: block;
     margin: 0 auto;
     width: 1240px;
+}
+
+.white {
+    color: white !important;
 }
 
 @media screen and (max-width: 1239px) {

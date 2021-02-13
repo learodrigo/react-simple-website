@@ -2,8 +2,8 @@ import { Wrapper } from './Divider.styles'
 
 const Divider = ({ text, id = null }) => {
     return (
-        <Wrapper>
-            <p className="divider-text font-mono" id={id} name={id}>{text}</p>
+        <Wrapper id={id} name={id}>
+            <p className="divider-text font-mono">{text}</p>
         </Wrapper>
     )
 }
