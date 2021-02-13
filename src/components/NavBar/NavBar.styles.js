@@ -73,6 +73,24 @@ export const Wrapper = styled.nav`
     @media(max-width: 768px) {
         width: 100%;
 
+        .navbar__menu {
+            right: 15px;
+            top: 15px;
+
+            .modal__button {
+                font-size: 14px;
+                height: 45px;
+                margin-right: 10px;
+                padding: 10px 25px;
+            }
+
+            .navbar__icon {
+                height: 45px;
+                padding: 10px;
+                width: 45px;
+            }
+        }
+
         .navbar__container {
             width: 100%;
         }

@@ -17,4 +17,11 @@ export const Wrapper = styled.div`
             width: 50px;
         }
     }
+
+    @media(max-width: 768px) {
+        .btn.square {
+            height: 45px;
+            width: 45px;
+        }
+    }
 `

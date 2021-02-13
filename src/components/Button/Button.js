@@ -6,7 +6,7 @@ const Button = ({
     buttonStyle
 }) => {
     return (
-        <Wrapper className='btn-mobile'>
+        <Wrapper>
             <button
                 className={`btn font-mono ${buttonStyle}`}
                 onClick={onClick}

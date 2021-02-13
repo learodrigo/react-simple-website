@@ -20,7 +20,8 @@ export const Wrapper = styled.div`
     .modal__yellow {
         background-color: #f9f8ea;
         display: block;
-        height: 100%;
+        height: auto;
+        padding-bottom: 124px;
     }
 
     .modal__info {
@@ -107,6 +108,7 @@ export const Wrapper = styled.div`
         }
     }
 
+    /* Buttons */
     .modal__buttons {
         display: block;
         position: relative;
@@ -130,6 +132,83 @@ export const Wrapper = styled.div`
         .submit__button {
             right: 0;
             position: absolute;
+        }
+    }
+
+    @media(max-width: 768px) {
+        .modal__yellow {
+            height: auto;
+            padding: 10px 0 100px;
+        }
+
+        .navbar__icon {
+            height: 45px !important;
+            padding: 10px;
+            right: 15px;
+            top: 15px;
+            width: 45px !important;
+        }
+
+        .container .modal__info {
+            padding-top: 72px;
+        }
+
+        .information__text {
+            margin-bottom: 60px;
+        }
+
+        .modal__info {
+            flex-direction: column;
+        }
+
+        .info__column {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        .modal__buttons {
+            margin-bottom: 60px;
+
+            button {
+                margin-right: 0;
+                margin-bottom: 15px;
+                width: 100%
+            }
+        }
+
+        .info__link {
+            margin-left: 24px;
+            width: 90%;
+        }
+
+        .modal__dark {
+            padding: 10px 0 100px;
+
+            .modal__column {
+                flex-direction: column;
+                padding: 70px 0 0;
+            }
+        }
+
+        .modal__form {
+            width: 100%;
+
+            input,
+            textarea {
+                margin-bottom: 24px;
+            }
+
+            .modal__buttons {
+                margin: 55px 0 175px;
+            }
+        }
+
+        .form__double {
+            flex-direction: column;
+
+            div {
+                width: 100%;
+            }
         }
     }
 
