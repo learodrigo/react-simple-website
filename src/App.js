@@ -7,6 +7,7 @@ import SupperModal from './modals/Support/Support'
 import DataPrivacy from './pages/DataPrivacy/DataPrivacy'
 import Home from './pages/Home/Home'
 import Impressum from './pages/Impressum/Impressum'
+import NotFound from './pages/NotFound/NotFound'
 import UeberUns from './pages/UeberUns/UeberUns'
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
@@ -29,6 +30,8 @@ const App = () => {
                     <Route path='/impressum' exact component={Impressum} />
                     <Route path='/datenschutz' exact component={DataPrivacy} />
                     <Route path='/modal' exact component={SupperModal} />
+                    <Route path='/404' component={NotFound} />
+                    <Route component={NotFound} />
                 </Switch>
                 <Footer />
             </Router>
