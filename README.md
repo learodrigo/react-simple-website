@@ -3,6 +3,16 @@ This is a mockup of a simple website, done with React and styled components. It'
 
 All designs are from [neue gestaltung GmbH](https://neuegestaltung.de/).
 
+## How to set up
+Before starting, you should have installled [Node.js](https://nodejs.org/en/)
+
+```
+git clone git@github.com:learodrigo/react-simple-website.git
+cd react-simple-website
+npm i
+npm start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,6 +39,14 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+
+## Extra
+If the browser opens annoys you everytime you start the project:
+1. Shut down the terminal
+2. Create a `.env` file.
+4. Add `BROWSER=none` in it.
+5. Start again
 
 
 -> made with love, in berlin, with react-create-app and vscode
